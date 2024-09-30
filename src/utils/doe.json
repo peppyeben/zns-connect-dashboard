@@ -1,0 +1,235 @@
+{
+    "totalMinting": {
+        "overall": 1000000,
+        "byChain": [
+            { "chain": "Ethereum", "count": 500000 },
+            { "chain": "Polygon", "count": 300000 },
+            { "chain": "Binance Smart Chain", "count": 200000 },
+            { "chain": "Avalanche", "count": 150000 },
+            { "chain": "Solana", "count": 100000 },
+            { "chain": "Cardano", "count": 80000 },
+            { "chain": "Polkadot", "count": 70000 },
+            { "chain": "Tezos", "count": 60000 },
+            { "chain": "Algorand", "count": 50000 },
+            { "chain": "Cosmos", "count": 40000 },
+            { "chain": "Near", "count": 30000 },
+            { "chain": "Fantom", "count": 25000 },
+            { "chain": "Harmony", "count": 20000 },
+            { "chain": "Elrond", "count": 18000 },
+            { "chain": "Celo", "count": 15000 },
+            { "chain": "Flow", "count": 12000 },
+            { "chain": "Stellar", "count": 10000 },
+            { "chain": "Hedera", "count": 8000 },
+            { "chain": "Tron", "count": 7000 },
+            { "chain": "Theta", "count": 5000 }
+        ]
+    },
+    "totalHolders": [
+        { "chain": "Ethereum", "count": 250000 },
+        { "chain": "Polygon", "count": 150000 },
+        { "chain": "Binance Smart Chain", "count": 100000 },
+        { "chain": "Avalanche", "count": 75000 },
+        { "chain": "Solana", "count": 50000 },
+        { "chain": "Cardano", "count": 40000 },
+        { "chain": "Polkadot", "count": 35000 },
+        { "chain": "Tezos", "count": 30000 },
+        { "chain": "Algorand", "count": 25000 },
+        { "chain": "Cosmos", "count": 20000 },
+        { "chain": "Near", "count": 15000 },
+        { "chain": "Fantom", "count": 12500 },
+        { "chain": "Harmony", "count": 10000 },
+        { "chain": "Elrond", "count": 9000 },
+        { "chain": "Celo", "count": 7500 },
+        { "chain": "Flow", "count": 6000 },
+        { "chain": "Stellar", "count": 5000 },
+        { "chain": "Hedera", "count": 4000 },
+        { "chain": "Tron", "count": 3500 },
+        { "chain": "Theta", "count": 2500 }
+    ],
+    "minting24h": {
+        "total": 5000,
+        "hourlyBreakdown": [
+            { "hour": 0, "count": 150 },
+            { "hour": 1, "count": 200 },
+            { "hour": 2, "count": 180 },
+            { "hour": 3, "count": 160 },
+            { "hour": 4, "count": 140 },
+            { "hour": 5, "count": 130 },
+            { "hour": 6, "count": 120 },
+            { "hour": 7, "count": 110 },
+            { "hour": 8, "count": 190 },
+            { "hour": 9, "count": 230 },
+            { "hour": 10, "count": 250 },
+            { "hour": 11, "count": 270 },
+            { "hour": 12, "count": 300 },
+            { "hour": 13, "count": 320 },
+            { "hour": 14, "count": 310 },
+            { "hour": 15, "count": 290 },
+            { "hour": 16, "count": 280 },
+            { "hour": 17, "count": 260 },
+            { "hour": 18, "count": 240 },
+            { "hour": 19, "count": 220 },
+            { "hour": 20, "count": 210 },
+            { "hour": 21, "count": 200 },
+            { "hour": 22, "count": 190 },
+            { "hour": 23, "count": 170 }
+        ]
+    },
+    "registrationChange": [
+        {
+            "timeframe": "1h",
+            "newRegistrations": 100,
+            "renewals": 50,
+            "transfers": 20
+        },
+        {
+            "timeframe": "6h",
+            "newRegistrations": 600,
+            "renewals": 300,
+            "transfers": 120
+        },
+        {
+            "timeframe": "24h",
+            "newRegistrations": 2400,
+            "renewals": 1200,
+            "transfers": 480
+        },
+        {
+            "timeframe": "7d",
+            "newRegistrations": 16800,
+            "renewals": 8400,
+            "transfers": 3360
+        },
+        {
+            "timeframe": "30d",
+            "newRegistrations": 72000,
+            "renewals": 36000,
+            "transfers": 14400
+        },
+        {
+            "timeframe": "allTime",
+            "newRegistrations": 1000000,
+            "renewals": 500000,
+            "transfers": 200000
+        }
+    ],
+    "nftMarketplaceVolume": [
+        {
+            "marketplace": "OpenSea",
+            "collections": [
+                {
+                    "name": "Bored Ape Yacht Club",
+                    "volume": 50000,
+                    "currency": "ETH"
+                },
+                { "name": "CryptoPunks", "volume": 40000, "currency": "ETH" },
+                { "name": "Azuki", "volume": 30000, "currency": "ETH" },
+                { "name": "Doodles", "volume": 25000, "currency": "ETH" },
+                { "name": "CloneX", "volume": 20000, "currency": "ETH" },
+                { "name": "Moonbirds", "volume": 18000, "currency": "ETH" },
+                { "name": "VeeFriends", "volume": 15000, "currency": "ETH" },
+                {
+                    "name": "World of Women",
+                    "volume": 12000,
+                    "currency": "ETH"
+                },
+                { "name": "Cool Cats", "volume": 10000, "currency": "ETH" },
+                { "name": "Pudgy Penguins", "volume": 8000, "currency": "ETH" },
+                { "name": "Meebits", "volume": 7000, "currency": "ETH" },
+                {
+                    "name": "Invisible Friends",
+                    "volume": 6000,
+                    "currency": "ETH"
+                },
+                { "name": "Deadfellaz", "volume": 5000, "currency": "ETH" },
+                { "name": "Cryptoadz", "volume": 4500, "currency": "ETH" },
+                {
+                    "name": "Gutter Cat Gang",
+                    "volume": 4000,
+                    "currency": "ETH"
+                },
+                { "name": "Killer GF", "volume": 3500, "currency": "ETH" },
+                { "name": "mfers", "volume": 3000, "currency": "ETH" },
+                { "name": "Degen Toonz", "volume": 2500, "currency": "ETH" },
+                { "name": "Creature World", "volume": 2000, "currency": "ETH" },
+                { "name": "Squishiverse", "volume": 1500, "currency": "ETH" }
+            ]
+        },
+        {
+            "marketplace": "Rarible",
+            "collections": [
+                { "name": "Art Blocks", "volume": 30000, "currency": "ETH" },
+                { "name": "SuperRare", "volume": 25000, "currency": "ETH" },
+                { "name": "Foundation", "volume": 20000, "currency": "ETH" },
+                { "name": "KnownOrigin", "volume": 15000, "currency": "ETH" },
+                { "name": "MakersPlace", "volume": 12000, "currency": "ETH" },
+                { "name": "Async Art", "volume": 10000, "currency": "ETH" },
+                { "name": "Nifty Gateway", "volume": 8000, "currency": "ETH" },
+                { "name": "Zora", "volume": 7000, "currency": "ETH" },
+                {
+                    "name": "PROOF Collective",
+                    "volume": 6000,
+                    "currency": "ETH"
+                },
+                { "name": "Ether Cards", "volume": 5000, "currency": "ETH" },
+                { "name": "Curio Cards", "volume": 4500, "currency": "ETH" },
+                { "name": "CryptoKitties", "volume": 4000, "currency": "ETH" },
+                { "name": "Axie Infinity", "volume": 3500, "currency": "ETH" },
+                { "name": "Gods Unchained", "volume": 3000, "currency": "ETH" },
+                { "name": "Decentraland", "volume": 2500, "currency": "ETH" },
+                { "name": "The Sandbox", "volume": 2000, "currency": "ETH" },
+                { "name": "CryptoVoxels", "volume": 1800, "currency": "ETH" },
+                { "name": "Somnium Space", "volume": 1600, "currency": "ETH" },
+                { "name": "Aavegotchi", "volume": 1400, "currency": "ETH" },
+                { "name": "Illuvium", "volume": 1200, "currency": "ETH" }
+            ]
+        }
+    ],
+    "topHolders": [
+        {
+            "chain": "Ethereum",
+            "holders": [
+                { "address": "0xabcd...efgh", "domainCount": 873 },
+                { "address": "0x5678...9012", "domainCount": 1105 },
+                { "address": "0xfghi...jklm", "domainCount": 652 },
+                { "address": "0x2345...6789", "domainCount": 945 },
+                { "address": "0xijkl...mnop", "domainCount": 512 },
+                { "address": "0x8901...2345", "domainCount": 789 },
+                { "address": "0xcdef...ghij", "domainCount": 1023 },
+                { "address": "0x0123...4567", "domainCount": 701 },
+                { "address": "0x7890...1234", "domainCount": 588 },
+                { "address": "0xklmn...opqr", "domainCount": 967 }
+            ]
+        },
+        {
+            "chain": "Polygon",
+            "holders": [
+                { "address": "0xdefg...hijk", "domainCount": 423 },
+                { "address": "0x9012...3456", "domainCount": 687 },
+                { "address": "0x3456...7890", "domainCount": 532 },
+                { "address": "0xmnop...qrst", "domainCount": 801 },
+                { "address": "0x6789...0123", "domainCount": 345 },
+                { "address": "0xuvwx...yzab", "domainCount": 598 },
+                { "address": "0x1234...5678", "domainCount": 712 },
+                { "address": "0xefgh...ijkl", "domainCount": 456 },
+                { "address": "0x4567...8901", "domainCount": 623 },
+                { "address": "0xopqr...stuv", "domainCount": 378 }
+            ]
+        },
+        {
+            "chain": "Binance Smart Chain",
+            "holders": [
+                { "address": "0xghij...klmn", "domainCount": 289 },
+                { "address": "0x2345...6789", "domainCount": 567 },
+                { "address": "0xwxyz...abcd", "domainCount": 412 },
+                { "address": "0x8901...2345", "domainCount": 198 },
+                { "address": "0xlmno...pqrs", "domainCount": 345 },
+                { "address": "0x5678...9012", "domainCount": 501 },
+                { "address": "0xjklm...nopq", "domainCount": 267 },
+                { "address": "0x0123...4567", "domainCount": 432 },
+                { "address": "0xstuv...wxyz", "domainCount": 178 },
+                { "address": "0x7890...1234", "domainCount": 389 }
+            ]
+        }
+    ]
+}
