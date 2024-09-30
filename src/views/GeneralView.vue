@@ -1,5 +1,6 @@
 <template>
-    <div class="w-full flex flex-col px-14 py-8">
+    <div class="w-full flex flex-col px-14 py-8 bg-[#ebebeb]">
+        <NavBar></NavBar>
         <GeneralHero></GeneralHero>
         <MintingHours></MintingHours>
         <RegistrationChange></RegistrationChange>
@@ -11,18 +12,20 @@
 <script>
 import GeneralHero from "@/components/GeneralHero.vue";
 import MintingHours from "@/components/MintingHours.vue";
+import NavBar from "@/components/NavBar.vue";
 import NftMPVolume from "@/components/NftMPVolume.vue";
 import RegistrationChange from "@/components/RegistrationChange.vue";
 import TopHolders from "@/components/TopHolders.vue";
 
 export default {
-    name: "HomeView",
+    name: "GeneralView",
     components: {
         GeneralHero,
         MintingHours,
         RegistrationChange,
         TopHolders,
         NftMPVolume,
+        NavBar,
     },
 };
 </script>

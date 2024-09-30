@@ -5,7 +5,7 @@
             style="height: 20rem"
         >
             <canvas
-                ref="regChangeChart"
+                ref="earningsChart"
                 class="w-full h-full"
                 style="height: 100%; width: 100%"
             ></canvas>
@@ -18,41 +18,39 @@ import { onMounted, ref, watch } from "vue";
 import { Chart } from "chart.js/auto";
 
 export default {
-    name: "TopHoldersChart",
+    name: "EarningsByChainTable",
     props: {
-        topHoldersTF: {
-            // type: Array, // Make sure this reflects the correct type
-            // required: true,
+        totalEarningsByChain: {
+            type: Object,
         },
     },
     setup(props) {
-        const regChangeChart = ref(null);
+        const earningsChart = ref(null);
         let chartInstance = null;
 
         const renderChart = () => {
-            if (!regChangeChart.value) return; // Ensure canvas is available
+            if (!earningsChart.value) return;
             if (chartInstance) {
-                chartInstance.destroy(); // Destroy previous instance if it exists
+                chartInstance.destroy();
             }
 
-            // Check if topHoldersTF has data
-            if (props.topHoldersTF.length > 0) {
-                const currentData = props.topHoldersTF[0].holders; // Get the holders for the selected chain
+            if (props.totalEarningsByChain) {
+                const currentData = props.totalEarningsByChain;
 
-                const labels = currentData.map((holder) =>
-                    formatAddress(holder.address)
-                ); // Extract addresses
-                const data = currentData.map((holder) => holder.domainCount); // Extract domain counts
+                const labels = Object.keys(currentData);
+                const data = Object.values(currentData);
 
-                chartInstance = new Chart(regChangeChart.value, {
+                chartInstance = new Chart(earningsChart.value, {
                     type: "bar",
                     data: {
                         labels: labels,
                         datasets: [
                             {
-                                label: "Domain Count",
+                                label: "Earnings",
                                 data: data,
-                                backgroundColor: generateRandomColors(),
+                                backgroundColor: generateRandomColors(
+                                    labels.length
+                                ),
                                 hoverOffset: 4,
                             },
                         ],
@@ -60,9 +58,28 @@ export default {
                     options: {
                         responsive: true,
                         maintainAspectRatio: false,
+                        scales: {
+                            x: {
+                                grid: {
+                                    display: false,
+                                },
+                                ticks: {
+                                    color: "#333333", // Customize the color of the labels on the x-axis
+                                },
+                            },
+                            y: {
+                                beginAtZero: true,
+                                grid: {
+                                    color: "#e5e5e5", // Optional: adjust grid color for better visuals
+                                },
+                                ticks: {
+                                    color: "#333333", // Customize the color of the labels on the y-axis
+                                },
+                            },
+                        },
                         plugins: {
                             legend: {
-                                display: false,
+                                display: false, // Hide the legend if not needed
                                 labels: {
                                     color: "#333333",
                                 },
@@ -77,19 +94,6 @@ export default {
             }
         };
 
-        onMounted(() => {
-            renderChart();
-        });
-
-        function formatAddress(address) {
-            if (typeof address === "string" && address.length > 4) {
-                const firstTwo = address.slice(0, 2);
-                const lastTwo = address.slice(-2);
-                return `${firstTwo}...${lastTwo}`;
-            }
-            return "Invalid address";
-        }
-
         function generateRandomColors() {
             const baseHue = Math.floor(Math.random() * 360);
             const colors = [];
@@ -103,8 +107,12 @@ export default {
             return colors;
         }
 
+        onMounted(() => {
+            renderChart();
+        });
+
         watch(
-            () => props.topHoldersTF,
+            () => props.totalEarningsByChain,
             (newVal, oldVal) => {
                 if (newVal !== oldVal) {
                     renderChart();
@@ -114,7 +122,7 @@ export default {
         );
 
         return {
-            regChangeChart,
+            earningsChart,
         };
     },
 };

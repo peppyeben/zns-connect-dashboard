@@ -6,6 +6,11 @@ const routes = [
         name: "home",
         component: () => import("../views/GeneralView.vue"),
     },
+    {
+        path: "/referrals",
+        name: "referrals",
+        component: () => import("../views/ReferralsView.vue"),
+    },
 ];
 
 const router = createRouter({

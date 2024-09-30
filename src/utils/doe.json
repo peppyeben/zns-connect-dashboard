@@ -370,5 +370,173 @@
                 { "address": "0x0000...1110", "domainCount": 1010 }
             ]
         }
+    ],
+    "totalEarningsByChain": {
+        "ethereum": 15234.56,
+        "bsc": 8765.43,
+        "polygon": 6543.21,
+        "avalanche": 4321.98,
+        "solana": 3210.87,
+        "fantom": 2109.76,
+        "arbitrum": 1987.65,
+        "optimism": 1876.54,
+        "cosmos": 1765.43
+    },
+    "referralCommission": {
+        "total": 45815.43,
+        "changes": {
+            "1h": 123.45,
+            "6h": 567.89,
+            "24h": 1234.56,
+            "1d": 1234.56,
+            "7d": 5678.9,
+            "30d": 23456.78,
+            "allTime": 45815.43
+        }
+    },
+    "totalUsers": {
+        "current": 50000,
+        "changes": {
+            "1h": 50,
+            "6h": 250,
+            "24h": 1000,
+            "1d": 1000,
+            "7d": 5000,
+            "30d": 15000,
+            "allTime": 50000
+        }
+    },
+    "chainComparison": [
+        {
+            "chain": "Ethereum",
+            "commission": 15234.56,
+            "users": 12000,
+            "averageCommissionPerUser": 1.27
+        },
+        {
+            "chain": "BSC",
+            "commission": 8765.43,
+            "users": 10000,
+            "averageCommissionPerUser": 0.88
+        },
+        {
+            "chain": "Polygon",
+            "commission": 6543.21,
+            "users": 8000,
+            "averageCommissionPerUser": 0.82
+        },
+        {
+            "chain": "Avalanche",
+            "commission": 4321.98,
+            "users": 6000,
+            "averageCommissionPerUser": 0.72
+        },
+        {
+            "chain": "Solana",
+            "commission": 3210.87,
+            "users": 5000,
+            "averageCommissionPerUser": 0.64
+        },
+        {
+            "chain": "Fantom",
+            "commission": 2109.76,
+            "users": 3000,
+            "averageCommissionPerUser": 0.7
+        },
+        {
+            "chain": "Blast",
+            "commission": 1987.65,
+            "users": 2500,
+            "averageCommissionPerUser": 0.8
+        },
+        {
+            "chain": "Polkadot",
+            "commission": 1876.54,
+            "users": 2000,
+            "averageCommissionPerUser": 0.94
+        },
+        {
+            "chain": "Cosmos",
+            "commission": 1765.43,
+            "users": 1500,
+            "averageCommissionPerUser": 1.18
+        }
+    ],
+    "dailyStats": [
+        {
+            "date": "2024-09-30",
+            "newUsers": 120,
+            "totalCommission": 567.89,
+            "commissionByChain": {
+                "ethereum": 200.12,
+                "binanceSmartChain": 150.34,
+                "polygon": 100.56,
+                "avalanche": 50.78,
+                "solana": 25.39,
+                "fantom": 15.23,
+                "arbitrum": 10.12,
+                "optimism": 8.9,
+                "cosmos": 6.45
+            }
+        },
+        {
+            "date": "2024-09-29",
+            "newUsers": 115,
+            "totalCommission": 543.21,
+            "commissionByChain": {
+                "ethereum": 190.45,
+                "binanceSmartChain": 145.67,
+                "polygon": 98.76,
+                "avalanche": 48.9,
+                "solana": 24.56,
+                "fantom": 14.78,
+                "arbitrum": 9.87,
+                "optimism": 8.12,
+                "cosmos": 6.1
+            }
+        }
+    ],
+    "topReferrers": [
+        {
+            "userId": "user123",
+            "totalReferrals": 500,
+            "totalCommission": 2345.67,
+            "topChains": ["ethereum", "binanceSmartChain", "polygon"]
+        },
+        {
+            "userId": "user456",
+            "totalReferrals": 450,
+            "totalCommission": 2100.54,
+            "topChains": ["binanceSmartChain", "avalanche", "solana"]
+        },
+        {
+            "userId": "user789",
+            "totalReferrals": 400,
+            "totalCommission": 1876.32,
+            "topChains": ["polygon", "fantom", "arbitrum"]
+        }
+    ],
+    "recentTransactions": [
+        {
+            "transactionId": "tx123456",
+            "userId": "user123",
+            "chain": "ethereum",
+            "amount": 5.67,
+            "timestamp": "2024-09-30T15:30:00Z"
+        },
+        {
+            "transactionId": "tx234567",
+            "userId": "user456",
+            "chain": "binanceSmartChain",
+            "amount": 3.21,
+            "timestamp": "2024-09-30T15:25:00Z"
+        },
+        {
+            "transactionId": "tx345678",
+            "userId": "user789",
+            "chain": "polygon",
+            "amount": 2.98,
+            "timestamp": "2024-09-30T15:20:00Z"
+        }
     ]
 }
