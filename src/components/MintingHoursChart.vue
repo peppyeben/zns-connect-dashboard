@@ -1,5 +1,5 @@
 <template>
-    <canvas ref="mintingChart" class="w-full md:w-[70%] lg:w-[70%]"></canvas>
+    <canvas ref="mintingChart" class="w-full"></canvas>
 </template>
 
 <script>

@@ -1,6 +1,6 @@
 <template>
     <div class="flex flex-col justify-start items-start w-full p-4 space-y-4">
-        <p class="text-2xl font-bold">Overview</p>
+        <p class="text-2xl font-bold pt-8">Overview</p>
         <section class="flex w-full justify-start items-stretch space-x-4">
             <CardDetails
                 :percentage="percentage"

@@ -1,5 +1,7 @@
 <template>
-    <div class="w-full flex flex-col px-14 py-8 bg-[#ebebeb]">
+    <div
+        class="w-full max-w-7xl mx-auto flex flex-col px-14 py-5 space-y-11 bg-[#ebebeb]"
+    >
         <NavBar></NavBar>
         <EarningsByChain></EarningsByChain>
         <div class="flex flex-row justify-center items-center space-x-8">

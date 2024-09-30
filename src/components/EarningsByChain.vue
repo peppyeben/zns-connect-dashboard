@@ -2,7 +2,7 @@
     <div
         class="flex flex-col space-y-4 px-4 py-6 justify-start items-start w-full"
     >
-        <p class="text-2xl font-bold">Earnings (By Chain)</p>
+        <p class="text-2xl font-bold pt-8">Earnings (By Chain)</p>
         <EarningsByChainTable
             :totalEarningsByChain="totalEarningsByChain"
         ></EarningsByChainTable>
