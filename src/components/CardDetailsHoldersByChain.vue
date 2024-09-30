@@ -24,16 +24,24 @@
             <button
                 @click="prevItem"
                 :disabled="currentIndex === 0"
-                class="bg-gray-300 p-2 rounded-full hover:bg-opacity-85"
+                class="rounded-full px-3 py-3 hover:bg-[#adaeb0] hover:bg-opacity-40"
+                :class="
+                    currentIndex === 0 ? 'cursor-not-allowed' : 'cursor-pointer'
+                "
             >
-                L
+                <img src="arrow-left.png" alt="" class="w-5" />
             </button>
             <button
                 @click="nextItem"
                 :disabled="currentIndex === totalHolders.length - 1"
-                class="bg-gray-300 p-2 rounded-full hover:bg-opacity-85"
+                class="rounded-full px-3 py-3 hover:bg-[#adaeb0] hover:bg-opacity-40"
+                :class="
+                    currentIndex === totalHolders.length - 1
+                        ? 'cursor-not-allowed'
+                        : 'cursor-pointer'
+                "
             >
-                R
+                <img src="arrow-right.png" alt="" class="w-5" />
             </button>
         </div>
     </div>

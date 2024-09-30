@@ -36,11 +36,11 @@ export default {
                                 (x) => x.count
                             ),
                             borderWidth: 2,
-                            backgroundColor: "transparent", // Optional: Use a transparent background if needed
+                            backgroundColor: "transparent",
                             borderRadius: "1rem",
                             tension: 0.4,
-                            pointRadius: 0,
-                            borderColor: "#333333", // Line color
+                            pointRadius: 1,
+                            borderColor: "#4c4c4c",
                         },
                     ],
                 },
@@ -50,21 +50,26 @@ export default {
                             grid: {
                                 display: false,
                             },
+                            ticks: {
+                                color: "#000",
+                            },
                         },
                         y: {
                             beginAtZero: true,
                             grid: {
-                                display: false,
+                                color: "#333333",
+                                borderColor: "#000000",
+                                lineWidth: 0.3,
+                            },
+                            ticks: {
+                                color: "#000",
                             },
                         },
                     },
                     responsive: true,
-                    color: "white",
                     plugins: {
                         legend: {
-                            labels: {
-                                color: "#333333",
-                            },
+                            display: false, // Hides the legend
                         },
                     },
                 },
