@@ -38,7 +38,7 @@ export default {
     setup() {
         const store = useStore();
 
-        const selectedChain = ref("Ethereum");
+        const selectedChain = ref("Binance Smart Chain");
         const topHoldersTF = ref({});
         const data = computed(() => store.getters.GET_DATA);
 
@@ -46,7 +46,7 @@ export default {
             topHoldersTF.value = data.value.topHolders.filter(
                 (x) => x.chain == selectedChain.value
             );
-            // console.log(topHoldersTF.value);
+            console.log(topHoldersTF.value);
         };
 
         onMounted(() => {

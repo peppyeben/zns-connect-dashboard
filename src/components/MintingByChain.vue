@@ -4,7 +4,7 @@
             v-for="(minting, index) in mintingByChain"
             :key="index"
             v-show="currentIndex === index"
-            class="flex flex-col flex-grow w-full justify-center items-center space-y-3 p-3 rounded-lg border border-[#e5e8ed]"
+            class="flex flex-col flex-grow w-full justify-center items-center space-y-3 p-3 rounded-lg border border-[#adaeb0]"
         >
             <p class="text-[#000] font-bold">Minting by Chain</p>
             <p class="text-[#000] font-medium">{{ minting.chain }}</p>

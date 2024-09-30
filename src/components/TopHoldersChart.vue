@@ -1,10 +1,15 @@
 <template>
-    <div class="flex justify-start items-start" style="height: 20rem">
-        <canvas
-            ref="regChangeChart"
-            class="w-full"
-            style="height: 100%"
-        ></canvas>
+    <div class="flex justify-start items-stretch w-full" style="height: 20rem">
+        <div
+            class="flex justify-start items-stretch w-full"
+            style="height: 20rem"
+        >
+            <canvas
+                ref="regChangeChart"
+                class="w-full h-full"
+                style="height: 100%; width: 100%"
+            ></canvas>
+        </div>
     </div>
 </template>
 
@@ -16,8 +21,8 @@ export default {
     name: "TopHoldersChart",
     props: {
         topHoldersTF: {
-            type: Array, // Make sure this reflects the correct type
-            required: true,
+            // type: Array, // Make sure this reflects the correct type
+            // required: true,
         },
     },
     setup(props) {
@@ -34,17 +39,19 @@ export default {
             if (props.topHoldersTF.length > 0) {
                 const currentData = props.topHoldersTF[0].holders; // Get the holders for the selected chain
 
-                const labels = currentData.map((holder) => holder.address); // Extract addresses
+                const labels = currentData.map((holder) =>
+                    formatAddress(holder.address)
+                ); // Extract addresses
                 const data = currentData.map((holder) => holder.domainCount); // Extract domain counts
 
                 chartInstance = new Chart(regChangeChart.value, {
-                    type: "polarArea",
+                    type: "bar",
                     data: {
-                        labels: labels.slice(0, 10),
+                        labels: labels,
                         datasets: [
                             {
                                 label: "Domain Count",
-                                data: data.slice(0, 10),
+                                data: data,
                                 backgroundColor: generateRandomColors(),
                                 hoverOffset: 4,
                             },
@@ -52,16 +59,17 @@ export default {
                     },
                     options: {
                         responsive: true,
+                        maintainAspectRatio: false,
                         plugins: {
                             legend: {
                                 display: false,
                                 labels: {
-                                    color: "#333333", // Legend text color
+                                    color: "#333333",
                                 },
                             },
                             tooltip: {
-                                enabled: true, // Enable tooltips on hover
-                                mode: "index", // Show tooltip for all items at the hovered index
+                                enabled: true,
+                                mode: "index",
                             },
                         },
                     },
@@ -70,16 +78,27 @@ export default {
         };
 
         onMounted(() => {
+            // regChangeChart.value.instance.resize();
             renderChart();
         });
+
+        function formatAddress(address) {
+            // Check if the address is valid
+            if (typeof address === "string" && address.length > 4) {
+                const firstTwo = address.slice(0, 2);
+                const lastTwo = address.slice(-2);
+                return `${firstTwo}...${lastTwo}`;
+            }
+            return "Invalid address";
+        }
 
         function generateRandomColors() {
             const baseHue = Math.floor(Math.random() * 360); // Random hue between 0-360
             const colors = [];
 
             for (let i = 0; i < 20; i++) {
-                const saturation = Math.floor(Math.random() * 51) + 50; // Random saturation between 50-100
-                const lightness = Math.floor(Math.random() * 21) + 10; // Random lightness between 10-30 for darker colors
+                const saturation = Math.floor(Math.random() * 11) + 5;
+                const lightness = Math.floor(Math.random() * 21) + 20;
                 colors.push(`hsl(${baseHue}, ${saturation}%, ${lightness}%)`);
             }
 

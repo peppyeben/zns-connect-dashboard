@@ -115,90 +115,129 @@
     ],
     "nftMarketplaceVolume": [
         {
-            "marketplace": "OpenSea",
-            "collections": [
-                {
-                    "name": "Bored Ape Yacht Club",
-                    "volume": 50000,
-                    "currency": "ETH"
-                },
-                { "name": "CryptoPunks", "volume": 40000, "currency": "ETH" },
-                { "name": "Azuki", "volume": 30000, "currency": "ETH" },
-                { "name": "Doodles", "volume": 25000, "currency": "ETH" },
-                { "name": "CloneX", "volume": 20000, "currency": "ETH" },
-                { "name": "Moonbirds", "volume": 18000, "currency": "ETH" },
-                { "name": "VeeFriends", "volume": 15000, "currency": "ETH" },
-                {
-                    "name": "World of Women",
-                    "volume": 12000,
-                    "currency": "ETH"
-                },
-                { "name": "Cool Cats", "volume": 10000, "currency": "ETH" },
-                { "name": "Pudgy Penguins", "volume": 8000, "currency": "ETH" },
-                { "name": "Meebits", "volume": 7000, "currency": "ETH" },
-                {
-                    "name": "Invisible Friends",
-                    "volume": 6000,
-                    "currency": "ETH"
-                },
-                { "name": "Deadfellaz", "volume": 5000, "currency": "ETH" },
-                { "name": "Cryptoadz", "volume": 4500, "currency": "ETH" },
-                {
-                    "name": "Gutter Cat Gang",
-                    "volume": 4000,
-                    "currency": "ETH"
-                },
-                { "name": "Killer GF", "volume": 3500, "currency": "ETH" },
-                { "name": "mfers", "volume": 3000, "currency": "ETH" },
-                { "name": "Degen Toonz", "volume": 2500, "currency": "ETH" },
-                { "name": "Creature World", "volume": 2000, "currency": "ETH" },
-                { "name": "Squishiverse", "volume": 1500, "currency": "ETH" }
-            ]
+            "marketplace": "Element",
+            "chain": "Scroll Mainnet",
+            "volume": 15032.75,
+            "currency": "ETH"
         },
         {
-            "marketplace": "Rarible",
-            "collections": [
-                { "name": "Art Blocks", "volume": 30000, "currency": "ETH" },
-                { "name": "SuperRare", "volume": 25000, "currency": "ETH" },
-                { "name": "Foundation", "volume": 20000, "currency": "ETH" },
-                { "name": "KnownOrigin", "volume": 15000, "currency": "ETH" },
-                { "name": "MakersPlace", "volume": 12000, "currency": "ETH" },
-                { "name": "Async Art", "volume": 10000, "currency": "ETH" },
-                { "name": "Nifty Gateway", "volume": 8000, "currency": "ETH" },
-                { "name": "Zora", "volume": 7000, "currency": "ETH" },
-                {
-                    "name": "PROOF Collective",
-                    "volume": 6000,
-                    "currency": "ETH"
-                },
-                { "name": "Ether Cards", "volume": 5000, "currency": "ETH" },
-                { "name": "Curio Cards", "volume": 4500, "currency": "ETH" },
-                { "name": "CryptoKitties", "volume": 4000, "currency": "ETH" },
-                { "name": "Axie Infinity", "volume": 3500, "currency": "ETH" },
-                { "name": "Gods Unchained", "volume": 3000, "currency": "ETH" },
-                { "name": "Decentraland", "volume": 2500, "currency": "ETH" },
-                { "name": "The Sandbox", "volume": 2000, "currency": "ETH" },
-                { "name": "CryptoVoxels", "volume": 1800, "currency": "ETH" },
-                { "name": "Somnium Space", "volume": 1600, "currency": "ETH" },
-                { "name": "Aavegotchi", "volume": 1400, "currency": "ETH" },
-                { "name": "Illuvium", "volume": 1200, "currency": "ETH" }
-            ]
+            "marketplace": "Element",
+            "chain": "Polygon Mainnet",
+            "volume": 12345.67,
+            "currency": "ETH"
+        },
+        {
+            "marketplace": "OpenSea",
+            "chain": "Polygon Mainnet",
+            "volume": 18920.58,
+            "currency": "ETH"
+        },
+        {
+            "marketplace": "Element",
+            "chain": "BNB Chain Mainnet",
+            "volume": 9243.19,
+            "currency": "BNB"
+        },
+        {
+            "marketplace": "OpenSea",
+            "chain": "BNB Chain Mainnet",
+            "volume": 14120.46,
+            "currency": "BNB"
+        },
+        {
+            "marketplace": "Element",
+            "chain": "Blast Mainnet",
+            "volume": 11234.89,
+            "currency": "ETH"
+        },
+        {
+            "marketplace": "OpenSea",
+            "chain": "Blast Mainnet",
+            "volume": 13575.33,
+            "currency": "ETH"
+        },
+        {
+            "marketplace": "Element",
+            "chain": "Zora Mainnet",
+            "volume": 8134.22,
+            "currency": "ETH"
+        },
+        {
+            "marketplace": "Element",
+            "chain": "X Layer Mainnet",
+            "volume": 5021.88,
+            "currency": "ETH"
         }
     ],
     "topHolders": [
         {
-            "chain": "Ethereum",
+            "chain": "Binance Smart Chain",
             "holders": [
-                { "address": "0xabcd...efgh", "domainCount": 873 },
-                { "address": "0x5678...9012", "domainCount": 1105 },
-                { "address": "0xfghi...jklm", "domainCount": 652 },
-                { "address": "0x2345...6789", "domainCount": 945 },
-                { "address": "0xijkl...mnop", "domainCount": 512 },
-                { "address": "0x8901...2345", "domainCount": 789 },
-                { "address": "0xcdef...ghij", "domainCount": 1023 },
-                { "address": "0x0123...4567", "domainCount": 701 },
-                { "address": "0x7890...1234", "domainCount": 588 },
-                { "address": "0xklmn...opqr", "domainCount": 967 }
+                { "address": "0xghij...klmn", "domainCount": 289 },
+                { "address": "0x2345...6789", "domainCount": 567 },
+                { "address": "0xwxyz...abcd", "domainCount": 412 },
+                { "address": "0x8901...2345", "domainCount": 198 },
+                { "address": "0xlmno...pqrs", "domainCount": 345 },
+                { "address": "0x5678...9012", "domainCount": 501 },
+                { "address": "0xjklm...nopq", "domainCount": 267 },
+                { "address": "0x0123...4567", "domainCount": 432 },
+                { "address": "0xstuv...wxyz", "domainCount": 178 },
+                { "address": "0x7890...1234", "domainCount": 389 },
+                { "address": "0x0000...0001", "domainCount": 100 },
+                { "address": "0x0000...0002", "domainCount": 200 },
+                { "address": "0x0000...0003", "domainCount": 300 },
+                { "address": "0x0000...0004", "domainCount": 400 },
+                { "address": "0x0000...0005", "domainCount": 500 },
+                { "address": "0x0000...0006", "domainCount": 600 },
+                { "address": "0x0000...0007", "domainCount": 700 },
+                { "address": "0x0000...0008", "domainCount": 800 },
+                { "address": "0x0000...0009", "domainCount": 900 },
+                { "address": "0x0000...0010", "domainCount": 1000 }
+            ]
+        },
+        {
+            "chain": "Scroll",
+            "holders": [
+                { "address": "0x0000...0101", "domainCount": 101 },
+                { "address": "0x0000...0102", "domainCount": 202 },
+                { "address": "0x0000...0103", "domainCount": 303 },
+                { "address": "0x0000...0104", "domainCount": 404 },
+                { "address": "0x0000...0105", "domainCount": 505 },
+                { "address": "0x0000...0106", "domainCount": 606 },
+                { "address": "0x0000...0107", "domainCount": 707 },
+                { "address": "0x0000...0108", "domainCount": 808 },
+                { "address": "0x0000...0109", "domainCount": 909 },
+                { "address": "0x0000...0110", "domainCount": 1010 }
+            ]
+        },
+        {
+            "chain": "Blast",
+            "holders": [
+                { "address": "0x0000...0201", "domainCount": 121 },
+                { "address": "0x0000...0202", "domainCount": 242 },
+                { "address": "0x0000...0203", "domainCount": 363 },
+                { "address": "0x0000...0204", "domainCount": 484 },
+                { "address": "0x0000...0205", "domainCount": 505 },
+                { "address": "0x0000...0206", "domainCount": 626 },
+                { "address": "0x0000...0207", "domainCount": 747 },
+                { "address": "0x0000...0208", "domainCount": 868 },
+                { "address": "0x0000...0209", "domainCount": 989 },
+                { "address": "0x0000...0210", "domainCount": 1110 }
+            ]
+        },
+        {
+            "chain": "Taiko",
+            "holders": [
+                { "address": "0x0000...0301", "domainCount": 131 },
+                { "address": "0x0000...0302", "domainCount": 262 },
+                { "address": "0x0000...0303", "domainCount": 393 },
+                { "address": "0x0000...0304", "domainCount": 424 },
+                { "address": "0x0000...0305", "domainCount": 505 },
+                { "address": "0x0000...0306", "domainCount": 626 },
+                { "address": "0x0000...0307", "domainCount": 747 },
+                { "address": "0x0000...0308", "domainCount": 868 },
+                { "address": "0x0000...0309", "domainCount": 989 },
+                { "address": "0x0000...0310", "domainCount": 1110 }
             ]
         },
         {
@@ -213,22 +252,122 @@
                 { "address": "0x1234...5678", "domainCount": 712 },
                 { "address": "0xefgh...ijkl", "domainCount": 456 },
                 { "address": "0x4567...8901", "domainCount": 623 },
-                { "address": "0xopqr...stuv", "domainCount": 378 }
+                { "address": "0xopqr...stuv", "domainCount": 378 },
+                { "address": "0x0000...0401", "domainCount": 111 },
+                { "address": "0x0000...0402", "domainCount": 222 },
+                { "address": "0x0000...0403", "domainCount": 333 },
+                { "address": "0x0000...0404", "domainCount": 444 },
+                { "address": "0x0000...0405", "domainCount": 555 },
+                { "address": "0x0000...0406", "domainCount": 666 },
+                { "address": "0x0000...0407", "domainCount": 777 },
+                { "address": "0x0000...0408", "domainCount": 888 },
+                { "address": "0x0000...0409", "domainCount": 999 },
+                { "address": "0x0000...0410", "domainCount": 1010 }
             ]
         },
         {
-            "chain": "Binance Smart Chain",
+            "chain": "XLayer",
             "holders": [
-                { "address": "0xghij...klmn", "domainCount": 289 },
-                { "address": "0x2345...6789", "domainCount": 567 },
-                { "address": "0xwxyz...abcd", "domainCount": 412 },
-                { "address": "0x8901...2345", "domainCount": 198 },
-                { "address": "0xlmno...pqrs", "domainCount": 345 },
-                { "address": "0x5678...9012", "domainCount": 501 },
-                { "address": "0xjklm...nopq", "domainCount": 267 },
-                { "address": "0x0123...4567", "domainCount": 432 },
-                { "address": "0xstuv...wxyz", "domainCount": 178 },
-                { "address": "0x7890...1234", "domainCount": 389 }
+                { "address": "0x0000...0501", "domainCount": 115 },
+                { "address": "0x0000...0502", "domainCount": 230 },
+                { "address": "0x0000...0503", "domainCount": 345 },
+                { "address": "0x0000...0504", "domainCount": 460 },
+                { "address": "0x0000...0505", "domainCount": 575 },
+                { "address": "0x0000...0506", "domainCount": 690 },
+                { "address": "0x0000...0507", "domainCount": 805 },
+                { "address": "0x0000...0508", "domainCount": 920 },
+                { "address": "0x0000...0509", "domainCount": 1035 },
+                { "address": "0x0000...0510", "domainCount": 1150 }
+            ]
+        },
+        {
+            "chain": "Zora",
+            "holders": [
+                { "address": "0x0000...0601", "domainCount": 100 },
+                { "address": "0x0000...0602", "domainCount": 200 },
+                { "address": "0x0000...0603", "domainCount": 300 },
+                { "address": "0x0000...0604", "domainCount": 400 },
+                { "address": "0x0000...0605", "domainCount": 500 },
+                { "address": "0x0000...0606", "domainCount": 600 },
+                { "address": "0x0000...0607", "domainCount": 700 },
+                { "address": "0x0000...0608", "domainCount": 800 },
+                { "address": "0x0000...0609", "domainCount": 900 },
+                { "address": "0x0000...0610", "domainCount": 1000 }
+            ]
+        },
+        {
+            "chain": "Boba",
+            "holders": [
+                { "address": "0x0000...0701", "domainCount": 110 },
+                { "address": "0x0000...0702", "domainCount": 220 },
+                { "address": "0x0000...0703", "domainCount": 330 },
+                { "address": "0x0000...0704", "domainCount": 440 },
+                { "address": "0x0000...0705", "domainCount": 550 },
+                { "address": "0x0000...0706", "domainCount": 660 },
+                { "address": "0x0000...0707", "domainCount": 770 },
+                { "address": "0x0000...0708", "domainCount": 880 },
+                { "address": "0x0000...0709", "domainCount": 990 },
+                { "address": "0x0000...0710", "domainCount": 1100 }
+            ]
+        },
+        {
+            "chain": "Mint",
+            "holders": [
+                { "address": "0x0000...0801", "domainCount": 115 },
+                { "address": "0x0000...0802", "domainCount": 230 },
+                { "address": "0x0000...0803", "domainCount": 345 },
+                { "address": "0x0000...0804", "domainCount": 460 },
+                { "address": "0x0000...0805", "domainCount": 575 },
+                { "address": "0x0000...0806", "domainCount": 690 },
+                { "address": "0x0000...0807", "domainCount": 805 },
+                { "address": "0x0000...0808", "domainCount": 920 },
+                { "address": "0x0000...0809", "domainCount": 1035 },
+                { "address": "0x0000...0810", "domainCount": 1150 }
+            ]
+        },
+        {
+            "chain": "Zircuit",
+            "holders": [
+                { "address": "0x0000...0901", "domainCount": 121 },
+                { "address": "0x0000...0902", "domainCount": 242 },
+                { "address": "0x0000...0903", "domainCount": 363 },
+                { "address": "0x0000...0904", "domainCount": 484 },
+                { "address": "0x0000...0905", "domainCount": 505 },
+                { "address": "0x0000...0906", "domainCount": 626 },
+                { "address": "0x0000...0907", "domainCount": 747 },
+                { "address": "0x0000...0908", "domainCount": 868 },
+                { "address": "0x0000...0909", "domainCount": 989 },
+                { "address": "0x0000...0910", "domainCount": 1110 }
+            ]
+        },
+        {
+            "chain": "Arthera",
+            "holders": [
+                { "address": "0x0000...1001", "domainCount": 131 },
+                { "address": "0x0000...1002", "domainCount": 262 },
+                { "address": "0x0000...1003", "domainCount": 393 },
+                { "address": "0x0000...1004", "domainCount": 424 },
+                { "address": "0x0000...1005", "domainCount": 505 },
+                { "address": "0x0000...1006", "domainCount": 626 },
+                { "address": "0x0000...1007", "domainCount": 747 },
+                { "address": "0x0000...1008", "domainCount": 868 },
+                { "address": "0x0000...1009", "domainCount": 989 },
+                { "address": "0x0000...1010", "domainCount": 1110 }
+            ]
+        },
+        {
+            "chain": "ZKLinkNova",
+            "holders": [
+                { "address": "0x0000...1101", "domainCount": 111 },
+                { "address": "0x0000...1102", "domainCount": 222 },
+                { "address": "0x0000...1103", "domainCount": 333 },
+                { "address": "0x0000...1104", "domainCount": 444 },
+                { "address": "0x0000...1105", "domainCount": 555 },
+                { "address": "0x0000...1106", "domainCount": 666 },
+                { "address": "0x0000...1107", "domainCount": 777 },
+                { "address": "0x0000...1108", "domainCount": 888 },
+                { "address": "0x0000...1109", "domainCount": 999 },
+                { "address": "0x0000...1110", "domainCount": 1010 }
             ]
         }
     ]

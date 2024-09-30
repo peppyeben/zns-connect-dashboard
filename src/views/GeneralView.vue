@@ -2,16 +2,16 @@
     <div class="w-full flex flex-col px-14 py-8">
         <GeneralHero></GeneralHero>
         <MintingHours></MintingHours>
-        <div class="flex justify-center items-center w-full">
-            <RegistrationChange></RegistrationChange>
-            <TopHolders></TopHolders>
-        </div>
+        <RegistrationChange></RegistrationChange>
+        <TopHolders></TopHolders>
+        <NftMPVolume></NftMPVolume>
     </div>
 </template>
 
 <script>
 import GeneralHero from "@/components/GeneralHero.vue";
 import MintingHours from "@/components/MintingHours.vue";
+import NftMPVolume from "@/components/NftMPVolume.vue";
 import RegistrationChange from "@/components/RegistrationChange.vue";
 import TopHolders from "@/components/TopHolders.vue";
 
@@ -22,6 +22,7 @@ export default {
         MintingHours,
         RegistrationChange,
         TopHolders,
+        NftMPVolume,
     },
 };
 </script>

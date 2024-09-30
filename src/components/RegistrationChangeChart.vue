@@ -70,12 +70,12 @@ export default {
         });
 
         function generateRandomColors() {
-            const baseHue = Math.floor(Math.random() * 360); // Random hue between 0-360
+            const baseHue = 70; // Base hue for the color #c9fc01
             const colors = [];
 
             for (let i = 0; i < 20; i++) {
-                const saturation = Math.floor(Math.random() * 51) + 50; // Random saturation between 50-100
-                const lightness = Math.floor(Math.random() * 21) + 30; // Random lightness between 10-30 for darker colors
+                const saturation = Math.floor(Math.random() * 11) + 5;
+                const lightness = Math.floor(Math.random() * 21) + 20;
                 colors.push(`hsl(${baseHue}, ${saturation}%, ${lightness}%)`);
             }
 
